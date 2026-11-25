@@ -140,16 +140,22 @@ export const SUPPLY_DIVISIONS: SupplyDivision[] = [
     code: 'Division 02',
     title: 'Specialized Procurement',
     summary:
-      'Targeted sourcing for industrial plants, production facilities, field operations, and agricultural programs with strict material specification checks.',
+      'Targeted sourcing for industrial plants, production facilities, workplace safety compliance, field operations, and agricultural programs with strict material specification checks.',
     image: '/src/assets/images/sector_specialized_procurement_1795452051857.jpg',
     imageAlt:
-      'Industrial depot storing raw material rolls, hardware components, and standardized corporate safety uniforms',
+      'Industrial depot storing raw material rolls, hardware components, and standardized corporate safety uniforms and helmets',
     categories: [
       {
         id: 'industrial-raw-materials',
         title: 'Industrial Raw Materials',
         description:
           'Sourcing of materials for manufacturing and packaging.',
+      },
+      {
+        id: 'safety-materials',
+        title: 'Safety Materials',
+        description:
+          'Safety shoes, helmets, aprons, protective goggles, gloves, high-visibility vests, and industrial PPE.',
       },
       {
         id: 'agricultural-inputs',
@@ -161,7 +167,7 @@ export const SUPPLY_DIVISIONS: SupplyDivision[] = [
         id: 'apparel-uniforms',
         title: 'Apparel & Uniforms',
         description:
-          'Supply of corporate uniforms and safety gear.',
+          'Supply of corporate uniforms, workwear, and institutional apparel.',
       },
     ],
   },
